@@ -8,4 +8,4 @@ before_script: mkdir -p shippable/codecoverage
 notifications:
   email:false
 after_success:
-     git push git@heroku.com:shipdemo.git
+     git push git@heroku.com:shipdemo.git master
